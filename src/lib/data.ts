@@ -1,0 +1,179 @@
+// ─── lib/data.ts ─────────────────────────────────────────────────────────────
+// Single source of truth for all portfolio content.
+
+export const personal = {
+    name: "Vinay Kumar",
+    logo: "Vinay",
+    tagline: ["Full-Stack Developer", "Cloud & DevOps Engineer", "Backend Architect", "ML Enthusiast"],
+    about:
+        "Final-year B.Tech student in Computer Science (AI & ML) with a CGPA of 8.88. I build production-ready full-stack applications and have hands-on experience deploying them on cloud infrastructure (AWS, Oracle Cloud) with Docker, CI/CD pipelines, and Linux servers. I'm comfortable across the entire stack — from designing REST APIs and real-time WebSocket systems to setting up Nginx reverse proxies and PM2 process managers.",
+    about2:
+        "I also bring foundational Machine Learning knowledge including classical algorithms, LLM API integration, and AI prompting strategies. Driven by a passion for clean architecture and developer tooling, I love turning complex ideas into reliable, scalable systems.",
+    email: "omrajputkumar@gmail.com",
+    phone: "+91 8368010726",
+    location: "Delhi, India",
+    cgpa: "8.88",
+    resumeUrl: "/resume.pdf",
+    socials: {
+        linkedin: "https://www.linkedin.com/in/vinay-vk-kumar",
+        github: "https://github.com/vinay-vk-kumar",
+    },
+};
+
+export const skillCategories = [
+    {
+        icon: "fas fa-code",
+        title: "Languages",
+        color: "#60a5fa",
+        skills: ["Python", "JavaScript", "TypeScript", "C++", "Bash / Shell"],
+    },
+    {
+        icon: "fas fa-layer-group",
+        title: "Full-Stack",
+        color: "#34d399",
+        skills: ["React.js", "Next.js", "Node.js", "Express.js", "REST APIs", "WebSockets / Socket.io", "MongoDB", "PostgreSQL", "MySQL", "Redis"],
+    },
+    {
+        icon: "fas fa-cloud",
+        title: "Cloud",
+        color: "#f59e0b",
+        skills: ["AWS (EC2, S3, IAM, VPC, Lambda)", "Oracle Cloud Infrastructure", "Nginx", "PM2", "SSL / HTTPS Setup", "Auto-Scaling",],
+    },
+    {
+        icon: "fas fa-infinity",
+        title: "DevOps & CI/CD",
+        color: "#a78bfa",
+        skills: ["Docker", "Docker Compose", "Kubernetes (basics)", "GitHub Actions", "Linux (Ubuntu/Debian)", "CI/CD Pipelines"],
+    },
+    {
+        icon: "fas fa-brain",
+        title: "AI / ML",
+        color: "#f472b6",
+        skills: ["Machine Learning Algorithms", "LLM API Integration", "AI Prompting & Engineering", "OpenCV", "MediaPipe", "NumPy", "Pandas"],
+    },
+    {
+        icon: "fas fa-cogs",
+        title: "Core CS",
+        color: "#94a3b8",
+        skills: ["OOP", "Data Structures & Algorithms", "Computer Networks", "Operating Systems", "DBMS"],
+    },
+];
+
+export const projects = [
+    {
+        title: "VeggieMap – Hyperlocal Vendor Finder",
+        desc: "Real-time platform connecting consumers with nearby vegetable vendors (shops & mobile hawkers). Features live GPS tracking via Socket.io Geo-Rooms, geospatial MongoDB indexing, vendor dashboards with inventory management, and marker clustering for performance at scale.",
+        tags: ["MERN Stack", "Next.js 16", "Socket.io", "MongoDB", "Leaflet", "Zustand", "TanStack Query", "Supercluster"],
+        category: "fullstack",
+        badge: "Real-Time + Maps",
+        badgeColor: "#10b981",
+        badgeTextColor: "#fff",
+        bg: "linear-gradient(135deg,#052e16,#14532d)",
+        live: "https://veggiemap.codewithvin.app/",
+        code: "https://github.com/vinay-vk-kumar/veggiemap-dev",
+    },
+    {
+        title: "Brainly – Personal Knowledge Hub",
+        desc: "Full-stack second-brain app to capture, organize, and share YouTube videos, articles, notes, and images. Features Google OAuth, OTP email auth via Resend, drag-and-drop UI, admin bug dashboard, and PM2 + Nginx production deployment.",
+        tags: ["React 19", "TypeScript", "Vite", "Express.js", "MongoDB", "Tailwind CSS 4", "Framer Motion", "PM2", "Nginx"],
+        category: "fullstack",
+        badge: "Full-Stack + DevOps",
+        badgeColor: "#6366f1",
+        badgeTextColor: "#fff",
+        bg: "linear-gradient(135deg,#1e1b4b,#312e81)",
+        live: "https://brainly.codewithvin.app",
+        code: "https://github.com/vinay-vk-kumar/Brainly",
+    },
+    {
+        title: "system-ctrl – Server Health Dashboard",
+        desc: "Developer-centric server monitoring dashboard with real-time CPU, memory, disk, and network telemetry. Integrates PM2 process management with live log streaming, Nginx connection tracking, and external service ping monitoring with a cyberpunk terminal UI.",
+        tags: ["Next.js", "TypeScript", "systeminformation", "PM2 API", "Nginx", "Shadcn UI", "Tailwind CSS"],
+        category: "devops",
+        badge: "DevOps + Monitoring",
+        badgeColor: "#0ea5e9",
+        badgeTextColor: "#fff",
+        bg: "linear-gradient(135deg,#0c1445,#0a2540)",
+        live: "https://healthcheck.codewithvin.app",
+        code: "https://github.com/vinay-vk-kumar/system-ctrl",
+    },
+    {
+        title: "Forge – Todo & Auth App",
+        desc: "Secure, production-grade Todo app with Email/Password + Google OAuth, OTP email verification, JWT auth, rate limiting, and Resend email delivery. Full-stack with Next.js frontend and Express + Prisma + PostgreSQL backend.",
+        tags: ["Next.js", "Express.js", "Prisma", "PostgreSQL", "JWT", "Google OAuth", "Resend", "TypeScript"],
+        category: "fullstack",
+        badge: "Full-Stack",
+        badgeColor: "#f59e0b",
+        badgeTextColor: "#000",
+        bg: "linear-gradient(135deg,#451a03,#78350f)",
+        live: "https://todo.codewithvin.app",
+        code: "https://github.com/vinay-vk-kumar/forge-todo-app",
+    },
+];
+
+export const education = [
+    {
+        period: "Sep 2023 – Present",
+        location: "Bhopal, India",
+        degree: "B.Tech – Computer Science and Engineering (AI & ML)",
+        institution: "IT Bhopal University",
+        badge: "CGPA: 8.88",
+        points: [
+            "Specializing in Artificial Intelligence and Machine Learning.",
+            "Building full-stack and cloud-deployed projects to apply classroom learning.",
+            "Actively participating in hackathons and project-based learning.",
+        ],
+    },
+    {
+        period: "May 2023",
+        location: "Delhi, India",
+        degree: "Senior Secondary School",
+        institution: "Vidya Bal Bhawan School",
+        badge: "86%",
+        points: [
+            "Completed Higher Secondary education with a focus on Science.",
+        ],
+    },
+    {
+        period: "May 2021",
+        location: "Delhi, India",
+        degree: "Secondary School Certificate",
+        institution: "Mayo International School",
+        badge: "84%",
+        points: [
+            "Completed Secondary education with distinction.",
+        ],
+    },
+];
+
+export const certifications = [
+    {
+        title: "AWS Cloud Foundation",
+        issuer: "Amazon Web Services",
+        date: "2025",
+        desc: "Earned AWS Cloud Practitioner foundation badge covering IaaS, PaaS, SaaS, EC2, S3, IAM, VPC, and cloud deployment strategies.",
+        featured: true,
+        link: "https://www.credly.com/badges/f97b7ed6-df28-4eed-b33a-b72b519ce8eb/public_url",
+        icon: "fab fa-aws",
+        iconColor: "#f59e0b",
+    },
+    {
+        title: "Applied Machine Learning in Python",
+        issuer: "University of Michigan",
+        date: "2026",
+        desc: "Completed hands-on ML course covering supervised learning, model evaluation, scikit-learn, and applied ML workflows on real-world datasets.",
+        featured: true,
+        link: "https://coursera.org/share/d6f60fdefb7f8e91fc7d5a196995f19a",
+        icon: "fas fa-graduation-cap",
+        iconColor: "#10b981",
+    },
+    {
+        title: "Cloud Computing",
+        issuer: "NPTEL – IIT",
+        date: "2024",
+        desc: "Covered cloud architecture, virtualization, distributed systems, and cloud service models from IIT faculty.",
+        featured: false,
+        link: "#",
+        icon: "fas fa-cloud",
+        iconColor: "#60a5fa",
+    },
+];
