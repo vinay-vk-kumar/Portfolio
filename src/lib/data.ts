@@ -108,6 +108,18 @@ export const projects = [
         live: "https://todo.codewithvin.app",
         code: "https://github.com/vinay-vk-kumar/forge-todo-app",
     },
+    {
+        title: "VIT FFCS – Timetable Manager",
+        desc: "Interactive timetable builder for VIT students using the Fully Flexible Credit System (FFCS). Supports slot search by code (e.g., A11+B11+C11), color-coded slot highlighting, subject assignment, and one-click timetable reset — all in a clean, single-page app.",
+        tags: ["HTML", "CSS", "JavaScript", "Vercel"],
+        category: "frontend",
+        badge: "Student Tool",
+        badgeColor: "#8b5cf6",
+        badgeTextColor: "#fff",
+        bg: "linear-gradient(135deg,#1a0533,#2d1a5e)",
+        live: "https://vit-ffcs.vercel.app/",
+        code: "https://github.com/vinay-vk-kumar/FFCS",
+    },
 ];
 
 export const education = [
