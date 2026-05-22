@@ -97,6 +97,18 @@ export const projects = [
         code: "https://github.com/vinay-vk-kumar/system-ctrl",
     },
     {
+        title: "WebPull – AI Documentation Scraper",
+        desc: "WebPull AI scrapes documentation websites and converts every page into well-structured Markdown files, packaged into a ZIP for LLMs, editors, or knowledge bases. Features Gemini AI fallback to generate docs when official ones aren't available.",
+        tags: ["AI", "Gemini AI", "Web Scraping", "LLM Tooling", "Markdown"],
+        category: "fullstack",
+        badge: "AI Tool",
+        badgeColor: "#ec4899",
+        badgeTextColor: "#fff",
+        bg: "linear-gradient(135deg,#4c1d95,#701a75)",
+        live: "https://webpull.codewithvin.app/",
+        code: "https://github.com/vinay-vk-kumar/webPull",
+    },
+    {
         title: "Forge – Todo & Auth App",
         desc: "Secure, production-grade Todo app with Email/Password + Google OAuth, OTP email verification, JWT auth, rate limiting, and Resend email delivery. Full-stack with Next.js frontend and Express + Prisma + PostgreSQL backend.",
         tags: ["Next.js", "Express.js", "Prisma", "PostgreSQL", "JWT", "Google OAuth", "Resend", "TypeScript"],
