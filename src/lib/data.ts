@@ -152,7 +152,7 @@ export const education = [
         location: "Bhopal, India",
         degree: "B.Tech – Computer Science and Engineering (AI & ML)",
         institution: "IT Bhopal University",
-        badge: "CGPA: 8.88",
+        badge: "CGPA: 8.92",
         points: [
             "Specializing in Artificial Intelligence and Machine Learning.",
             "Building full-stack and cloud-deployed projects to apply classroom learning.",
