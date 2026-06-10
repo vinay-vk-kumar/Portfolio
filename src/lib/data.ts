@@ -105,7 +105,7 @@ export const projects = [
         badgeColor: "#0ea5e9",
         badgeTextColor: "#fff",
         bg: "linear-gradient(135deg,#0c1445,#0a2540)",
-        live: "https://healthcheck.codewithvin.app",
+        live: "http://healthcheck.codewithvin.app",
         code: "https://github.com/vinay-vk-kumar/system-ctrl",
     },
     {
