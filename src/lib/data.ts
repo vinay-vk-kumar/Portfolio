@@ -11,7 +11,7 @@ export const personal = {
         "I also bring foundational Machine Learning knowledge including classical algorithms, LLM API integration, and AI prompting strategies. Driven by a passion for clean architecture and developer tooling, I love turning complex ideas into reliable, scalable systems.",
     email: "omrajputkumar@gmail.com",
     phone: "+91 8368010726",
-    locatio: "Delhi, India",
+    location: "Delhi, India",
     cgpa: "8.92",
     resumeUrl: "/resume.pdf",
     socials: {
