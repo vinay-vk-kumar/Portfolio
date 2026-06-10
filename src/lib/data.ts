@@ -151,7 +151,7 @@ export const education = [
         period: "Sep 2023 – Present",
         location: "Bhopal, India",
         degree: "B.Tech – Computer Science and Engineering (AI & ML)",
-        institution: "IT Bhopal University",
+        institution: "VIT Bhopal University",
         badge: "CGPA: 8.92",
         points: [
             "Specializing in Artificial Intelligence and Machine Learning.",
