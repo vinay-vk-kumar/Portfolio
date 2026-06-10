@@ -6,7 +6,7 @@ export const personal = {
     logo: "Vinay",
     tagline: ["Full-Stack Developer", "Cloud & DevOps Engineer", "Backend Architect", "ML Enthusiast"],
     about:
-        "Final-year B.Tech student in Computer Science (AI & ML) with a CGPA of 8.88. I build production-ready full-stack applications and have hands-on experience deploying them on cloud infrastructure (AWS, Oracle Cloud) with Docker, CI/CD pipelines, and Linux servers. I'm comfortable across the entire stack — from designing REST APIs and real-time WebSocket systems to setting up Nginx reverse proxies and PM2 process managers.",
+        "Final-year B.Tech student in Computer Science (AI & ML) with a CGPA of 8.92. I build production-ready full-stack applications and have hands-on experience deploying them on cloud infrastructure (AWS, Oracle Cloud) with Docker, CI/CD pipelines, and Linux servers. I'm comfortable across the entire stack — from designing REST APIs and real-time WebSocket systems to setting up Nginx reverse proxies and PM2 process managers.",
     about2:
         "I also bring foundational Machine Learning knowledge including classical algorithms, LLM API integration, and AI prompting strategies. Driven by a passion for clean architecture and developer tooling, I love turning complex ideas into reliable, scalable systems.",
     email: "omrajputkumar@gmail.com",
