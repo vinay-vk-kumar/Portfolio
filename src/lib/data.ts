@@ -83,7 +83,7 @@ export const projects = [
         bg: "linear-gradient(135deg,#0f172a,#1e293b)",  
         live: "https://smsgateway.codewithvin.app",  
         code: "https://github.com/vinay-vk-kumar/sms-gateway"
-    }
+    },
     {
         title: "Brainly – Personal Knowledge Hub",
         desc: "Full-stack second-brain app to capture, organize, and share YouTube videos, articles, notes, and images. Features Google OAuth, OTP email auth via Resend, drag-and-drop UI, admin bug dashboard, and PM2 + Nginx production deployment.",
