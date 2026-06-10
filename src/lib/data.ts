@@ -11,8 +11,8 @@ export const personal = {
         "I also bring foundational Machine Learning knowledge including classical algorithms, LLM API integration, and AI prompting strategies. Driven by a passion for clean architecture and developer tooling, I love turning complex ideas into reliable, scalable systems.",
     email: "omrajputkumar@gmail.com",
     phone: "+91 8368010726",
-    location: "Delhi, India",
-    cgpa: "8.88",
+    locatio: "Delhi, India",
+    cgpa: "8.92",
     resumeUrl: "/resume.pdf",
     socials: {
         linkedin: "https://www.linkedin.com/in/vinay-vk-kumar",
@@ -72,6 +72,18 @@ export const projects = [
         live: "https://veggiemap.codewithvin.app/",
         code: "https://github.com/vinay-vk-kumar/veggiemap-dev",
     },
+    {  
+        title: "SMS Gateway – Self-Hosted Messaging Server",  
+        desc: "A production-grade, self-hosted HTTP API gateway that turns Android devices into programmable SMS gateways. Features JWT-authenticated endpoints, secure device pairing via private access tokens, event-driven webhook configurations, and efficient background queuing to handle bulk message routing without external internet dependencies.",  
+        tags: ["Android", "Kotlin", "Java", "Mobile Development", "Node.js", "React", "bullmq", "Firebase", "Android Integration", "Redis", "Resend"],  
+        category: "devops",  
+        badge: "Backend + Infrastructure",  
+        badgeColor: "#3b82f6", 
+        badgeTextColor: "#fff",  
+        bg: "linear-gradient(135deg,#0f172a,#1e293b)",  
+        live: "https://smsgateway.codewithvin.app",  
+        code: "https://github.com/vinay-vk-kumar/sms-gateway"
+    }
     {
         title: "Brainly – Personal Knowledge Hub",
         desc: "Full-stack second-brain app to capture, organize, and share YouTube videos, articles, notes, and images. Features Google OAuth, OTP email auth via Resend, drag-and-drop UI, admin bug dashboard, and PM2 + Nginx production deployment.",
