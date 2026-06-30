@@ -6,13 +6,13 @@ export const personal = {
     logo: "Vinay",
     tagline: ["Full-Stack Developer", "Cloud & DevOps Engineer", "Backend Architect", "ML Enthusiast"],
     about:
-        "Final-year B.Tech student in Computer Science (AI & ML) with a CGPA of 8.88. I build production-ready full-stack applications and have hands-on experience deploying them on cloud infrastructure (AWS, Oracle Cloud) with Docker, CI/CD pipelines, and Linux servers. I'm comfortable across the entire stack — from designing REST APIs and real-time WebSocket systems to setting up Nginx reverse proxies and PM2 process managers.",
+        "Final-year B.Tech student in Computer Science (AI & ML) with a CGPA of 8.92. I build production-ready full-stack applications and have hands-on experience deploying them on cloud infrastructure (AWS, Oracle Cloud) with Docker, CI/CD pipelines, and Linux servers. I'm comfortable across the entire stack — from designing REST APIs and real-time WebSocket systems to setting up Nginx reverse proxies and PM2 process managers.",
     about2:
         "I also bring foundational Machine Learning knowledge including classical algorithms, LLM API integration, and AI prompting strategies. Driven by a passion for clean architecture and developer tooling, I love turning complex ideas into reliable, scalable systems.",
     email: "omrajputkumar@gmail.com",
     phone: "+91 8368010726",
     location: "Delhi, India",
-    cgpa: "8.88",
+    cgpa: "8.92",
     resumeUrl: "/resume.pdf",
     socials: {
         linkedin: "https://www.linkedin.com/in/vinay-vk-kumar",
@@ -72,6 +72,18 @@ export const projects = [
         live: "https://veggiemap.codewithvin.app/",
         code: "https://github.com/vinay-vk-kumar/veggiemap-dev",
     },
+    {  
+        title: "SMS Gateway – Self-Hosted Messaging Server",  
+        desc: "A production-grade, self-hosted HTTP API gateway that turns Android devices into programmable SMS gateways. Features JWT-authenticated endpoints, secure device pairing via private access tokens, event-driven webhook configurations, and efficient background queuing to handle bulk message routing without external internet dependencies.",  
+        tags: ["Android", "Kotlin", "Java", "Mobile Development", "Node.js", "React", "bullmq", "Firebase", "Android Integration", "Redis", "Resend"],  
+        category: "fullstack",  
+        badge: "Backend + Infrastructure",  
+        badgeColor: "#3b82f6", 
+        badgeTextColor: "#fff",  
+        bg: "linear-gradient(135deg,#0f172a,#1e293b)",  
+        live: "https://smsgateway.codewithvin.app",  
+        code: "https://github.com/vinay-vk-kumar/sms-gateway"
+    },
     {
         title: "Brainly – Personal Knowledge Hub",
         desc: "Full-stack second-brain app to capture, organize, and share YouTube videos, articles, notes, and images. Features Google OAuth, OTP email auth via Resend, drag-and-drop UI, admin bug dashboard, and PM2 + Nginx production deployment.",
@@ -93,7 +105,7 @@ export const projects = [
         badgeColor: "#0ea5e9",
         badgeTextColor: "#fff",
         bg: "linear-gradient(135deg,#0c1445,#0a2540)",
-        live: "https://healthcheck.codewithvin.app",
+        live: "http://healthcheck.codewithvin.app",
         code: "https://github.com/vinay-vk-kumar/system-ctrl",
     },
     {
@@ -139,8 +151,8 @@ export const education = [
         period: "Sep 2023 – Present",
         location: "Bhopal, India",
         degree: "B.Tech – Computer Science and Engineering (AI & ML)",
-        institution: "IT Bhopal University",
-        badge: "CGPA: 8.88",
+        institution: "VIT Bhopal University",
+        badge: "CGPA: 8.92",
         points: [
             "Specializing in Artificial Intelligence and Machine Learning.",
             "Building full-stack and cloud-deployed projects to apply classroom learning.",

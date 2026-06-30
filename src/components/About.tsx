@@ -13,7 +13,7 @@ export default function About() {
     ];
 
     const stats = [
-        { value: "8.88", label: "CGPA" },
+        { value: "8.92", label: "CGPA" },
         { value: "AWS", label: "Certified" },
         { value: "3+", label: "Clouds Used" },
     ];
