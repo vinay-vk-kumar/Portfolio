@@ -73,8 +73,8 @@ export const projects = [
         code: "https://github.com/vinay-vk-kumar/veggiemap-dev",
     },
     {  
-        title: "SMS Gateway – Self-Hosted Messaging Server",  
-        desc: "A production-grade, self-hosted HTTP API gateway that turns Android devices into programmable SMS gateways. Features JWT-authenticated endpoints, secure device pairing via private access tokens, event-driven webhook configurations, and efficient background queuing to handle bulk message routing without external internet dependencies.",  
+        title: "SMS Gateway – Messaging Server",  
+        desc: "A production-grade, HTTP API gateway that turns Android devices into programmable SMS gateways. Features JWT-authenticated endpoints, secure device pairing via private access tokens, event-driven webhook configurations, and efficient background queuing to handle bulk message routing without external internet dependencies.",  
         tags: ["Android", "Kotlin", "Java", "Mobile Development", "Node.js", "React", "bullmq", "Firebase", "Android Integration", "Redis", "Resend"],  
         category: "fullstack",  
         badge: "Backend + Infrastructure",  
