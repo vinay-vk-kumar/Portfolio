@@ -183,6 +183,16 @@ export const education = [
 
 export const certifications = [
     {
+        title: "AWS Certified Solutions Architect – Associate",
+        issuer: "Amazon Web Services",
+        date: "2026",
+        desc: "Earned AWS Certified Solutions Architect – Associate certification validating expertise in designing distributed systems on AWS.",
+        featured: true,
+        link: "https://www.credly.com/badges/53aab780-a186-487b-9abc-8231357f86d2/",
+        icon: "fab fa-aws",
+        iconColor: "#f59e0b",
+    },
+    {
         title: "AWS Cloud Foundation",
         issuer: "Amazon Web Services",
         date: "2025",
